@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Mic.Volo.Async_ASP.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -12,6 +14,8 @@ namespace Mic.Volo.Async_ASP
     {
         protected void Application_Start()
         {
+            Database.SetInitializer(new TodoDbInitializer());
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

@@ -16,7 +16,9 @@ namespace Mic.Volo.Async_ASP.Controllers
         {
             IEnumerable<ToDo> toDos =  db.ToDos.ToList();
             ViewBag.Todos = toDos;
-            return View();
+
+            var task = db.ToDos;
+            return View(task);
         }
 
         public ActionResult About()
