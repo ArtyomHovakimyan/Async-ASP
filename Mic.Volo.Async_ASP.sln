@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mic.Volo.Async_ASP", "Mic.Volo.Async_ASP\Mic.Volo.Async_ASP.csproj", "{62EB2DF4-D3DE-4143-BC5F-CB2A7431284A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EB2DF4-D3DE-4143-BC5F-CB2A7431284A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EB2DF4-D3DE-4143-BC5F-CB2A7431284A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EB2DF4-D3DE-4143-BC5F-CB2A7431284A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EB2DF4-D3DE-4143-BC5F-CB2A7431284A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68C38E73-74FB-433D-9D66-15131F111CC6}
+	EndGlobalSection
+EndGlobal
